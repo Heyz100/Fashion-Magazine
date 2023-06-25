@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HEADER     */
+
+.fa-bars{
+    margin: 0px 10px;
+    margin-top: 18px;
+}
+.hub{
+    font-size: 2rem;
+    color:rgb(37, 37, 37);
+    display: none;
+}
+
+header{
+    background-image: url('images/imo/qq.jpg');
+    background-size: cover;
+    height: 120vh;
+    padding: 10px 0px;
+    
+}
+.new-style .log button{
+    margin: 15px 15px;
+    margin-left: 20px;
+    font-size: 0.97rem;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+  
+}
+.log button:hover{
+    font-size: 0.98rem;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 90px;
+}
+.log{
+    padding: 0px 1%;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.jo h1{
+    margin: 5px 30%;
+    font-size: 2.7rem;
+    color: white;
+}
+.new-style {
+    display: flex;
+    gap: 13%;
+}
+.log a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.log a:hover{
+    text-decoration: underline;
+    color:black;
+}
+
+/* STREE STYLE */
+
+hr{
+    margin-top: 40px;
+}
+.tit h1{
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.tit{
+    margin: 0px 2%;
+}
+.tit h1:hover{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .tit h1{
+    animation: into 2s infinite ;
+}
+@keyframes into{
+    10%{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    50%{
+        font-family: cursive;
+    }
+
+} */
+.sob img{
+width: 35%;
+height: 2%;
+padding: 30px 30%;
+}
+.by a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+.by h1{
+    text-align: center;
+}
+.by h1:hover{
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.footer{
+    background: linear-gradient(rgb(49, 47, 47),rgb(95, 89, 89)) ;
+    height: 65vh;
+    margin-top: 40px;
+    padding: 10px  2%;
+}
+.boss{
+    display: flex;
+    gap: 25%;
+    padding-top: 50px;
+}
+.low{
+    color: white;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20%;
+}
+.fot a:hover{
+    text-decoration: underline;
+}
+.fot h2{
+    margin-bottom: 10px;
+}
+.fot li{
+    list-style: none;
+    padding-top: 5px;
+}
+.fot a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.fot ul{
+    display: flex;
+    flex-direction: column;
+}
+.noo{
+    margin-left: 10px;
+    color: white;
+}
+.noo h1{
+    font-size: 2.7rem;
+}
+.noo p{
+    padding-top: 5px;
+}
+#j{
+    color: rgb(170, 52, 72);
+}
+#j:hover{
+    color: rgb(173, 93, 120);
+}
+.go {
+    margin: 35px  50px; 
+    display: flex;
+    gap: 15%;
+}
+.go a:hover{
+    color: rgb(43, 106, 131);
+}
+.go a{
+    color: blue;
+    font-size: 1.5rem;
+}
+.footer hr{
+    margin-top: -20px;
+}
+.wait {
+    display: flex;
+    margin-top: 25px;
+}
+.wait hr{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 20px;
+}
+.wait a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+    padding-left: 10px;
+}
+.wait a:hover{
+    text-decoration: underline;
+}
+#f{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: white;
+}
+
+/* dropdown_menu */
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown_menu.open{
+    height: 263px;
+}
+.dropdown_menu li{
+    padding: 0.9rem;
+    display: flex;
+    justify-content: center;
+}
+.dropdown_menu .lol{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.dropdown_menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.lol button{ 
+    margin-top: 10px;
+    height: 30px;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 0.99rem;
+} 
+
+
+/* RESPONSIVE */
+@media(max-width:992px){
+    .new-style .log{
+        display: none;
+    }
+    .new-style .hub{
+        display: block;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+    .new-style{
+        display: flex;
+        justify-content: space-between;
+    }
+    header{
+        width: 100%;
+    }
+    .footer{
+        width: 95%;
+        padding: 1px 2%;
+    
+    }
+    .footer .low{
+        display: grid;
+        margin-left: -100px;  
+    }
+}
+
+
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+    .footer{
+        width: 96%;
+        height: 110vh;
+        padding:0px 2%;
+    }
+    .low{
+        display: grid;
+        grid-template-columns: 200px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .noo{
+        margin-top: 85px;
+    }
+}
+
+

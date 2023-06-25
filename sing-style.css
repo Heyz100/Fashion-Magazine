@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* SING UP CSS STYLE */
+.sii{
+    background-image: url('images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 89vh;
+    padding-top: 5%;
+    padding-left: 100px;
+}
+
+.sing{
+    margin: 0px 20%;
+    background-color:silver;
+    height: 65vh;
+    width: 40%;
+    padding-top: 60px;
+    padding-left: 12%;
+    border-radius: 10px;
+    background: rgba(665, 665, 665, 0.5);
+    backdrop-filter: blure(10px); 
+    position: relative;
+    
+    
+}
+.sing input{
+    margin-top: 30px;
+    border-bottom: 3px solid gray;
+    border: none;
+    border-radius: 10px;
+    width: 70%;
+    height: 35px;
+    padding-left: 15px;
+    font-size: 0.95rem;
+}
+.sing button{
+    /* margin: 20px 45px; */
+    position: absolute;
+    bottom: 65px;
+    right: 20%;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 0.90rem;
+}
+.sing button:hover{
+    background-color: rgb(5, 112, 155);
+    color: white;
+}
+.sing a{
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+.sing a:hover{
+    color: rgb(90, 84, 84);
+}
+#w{
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+.sing h1{
+    font-size: 2.2rem;
+}
+.sing a{
+    color:black;
+    font-size: 1rem;
+}
+span{
+    color: blue;
+}

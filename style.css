@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*HEADER*/
+.fa-bars{
+    margin: 0px 10px;
+    margin-top: 18px;
+}
+.hub{
+    font-size: 2rem;
+    color:rgb(37, 37, 37);
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    position: relative;
+    padding: 10px 3%;
+    height: 150vh;
+    background-image: url('images/Basic Luxe Chiffon Hijab- Yara.jfif');
+    background-size:cover;
+}
+#p{
+    margin-top: 33%;
+    margin-left: -8px;
+    color:black;
+    font-size: 3rem;
+    animation: hello 10s infinite;
+}
+@keyframes hello{
+    25%{
+        color: rgb(104, 101, 97);
+    }
+    75%{
+        color: rgb(119, 119, 126);
+    }
+
+}
+.logo h1{
+    color: black;
+    font-size: 2.95rem;
+
+}
+.logo:hover{
+    color:white;
+}
+.navbar .login button{
+    font-size: 0.97rem;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+  
+}
+.login button:hover{
+    font-size: 0.98rem;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 90px;
+    /* transition: 2s; */
+}
+.login a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+    margin: 5px 5px;
+}
+.login a:hover{
+    color:black;
+    text-decoration: underline;
+}
+.navbar .login{
+    margin: 13px 1px;
+}
+
+.sub ul{
+    display: flex;
+}
+.sub li{
+    padding-left: 25px;
+    padding-top: 18px;
+    list-style: none;
+
+}
+.sub a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color:black;
+}
+.sub a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+/*NEW ARRIVALS*/
+.New_Arrivals{
+    margin-top: 50px;
+}
+.New_Arrivals h1{
+    margin: 40px  50px;
+    font-size: 3rem;
+}
+.New_Arrivals img:hover{
+    transform: scale(1.1);
+}
+.pop{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+
+/* COLLECTION*/
+
+.new-collection img:hover{
+    transform: scale(0.97);
+}
+.new-collection .coll1{
+  margin: 10px 10%;
+}
+.new-collection h1{
+    margin: 40px 50px;
+    font-size: 3rem;
+}
+.coll1 h2{
+    margin: 50px 5%;
+    font-size: 1.5rem;
+}
+.coll1 p{
+    margin: 1px 6%;
+    margin-top: -35px;
+}
+.coll1 img{
+    width: 30%;
+    height: 30%;
+    margin-top: 20px;
+}
+/*LIMITED EDITION */
+.limited img:hover{
+    transform: scale(1.1);
+}
+.limited-edition .limited{
+    margin: 10px 10%;
+}
+.limited-edition h1{
+    margin: 40px 50px;
+    font-size: 3rem;
+}
+.season{
+    margin: 50px 1px;
+}
+.season h2{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* FOOTER */
+.footer{
+    background: linear-gradient(rgb(49, 47, 47),rgb(95, 89, 89)) ;
+    height: 65vh;
+    margin-top: 40px;
+    padding: 10px  2%;
+}
+.boss{
+    display: flex;
+    gap: 25%;
+    padding-top: 50px;
+}
+.low{
+    color: white;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    gap: 20%;
+}
+.fot a:hover{
+    text-decoration: underline;
+}
+.fot h2{
+    margin-bottom: 10px;
+}
+.fot li{
+    list-style: none;
+    padding-top: 5px;
+}
+.fot a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.noo{
+    margin-left: 10px;
+    color: white;
+}
+.noo h1{
+    font-size: 2.7rem;
+}
+.noo p{
+    padding-top: 5px;
+}
+#j{
+    color: rgb(170, 52, 72);
+}
+#j:hover{
+    color: rgb(173, 93, 120);
+}
+.go {
+    margin: 35px  50px; 
+    display: flex;
+    gap: 15%;
+}
+.go a:hover{
+    color: rgb(43, 106, 131);
+}
+.go a{
+    color: blue;
+    font-size: 1.5rem;
+}
+.footer hr{
+    margin-top: -20px;
+}
+.wait {
+    display: flex;
+    margin-top: 25px;
+}
+.wait hr{
+    margin-left: 10px;
+    margin-top: 1px;
+    height: 20px;
+}
+.wait a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+    padding-left: 10px;
+}
+.wait a:hover{
+    text-decoration: underline;
+}
+#f{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: white;
+
+}
+
+/* dropdown_menu */
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown_menu.open{
+    height: 220px;
+}
+.dropdown_menu li{
+    padding: 0.99rem;
+    display: flex;
+    justify-content: center;
+}
+.dropdown_menu .lol{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.dropdown_menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.lol button{ 
+    margin-top: 10px;
+    height: 30px;
+    width: 280px;
+    border: none;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-size: 0.99rem;
+} 
+
+/* RESPONSIVE */
+@media(max-width:992px){
+    .navbar .sub,
+    .navbar .login{
+        display: none;
+    }
+    .navbar .hub{
+        display: block;
+    }
+    .dropdown_menu{
+        display: block;
+    }
+    header{
+        width: 100%;
+    }
+    #p{
+        margin-top: 390px;
+        font-size: 2.80rem;
+    }
+    .footer{
+        width: 100%;
+    }
+    .footer .boss{
+        display: flex;
+        gap: 10%;
+    }
+    
+    .limited img{
+        width: 30%; 
+    }
+    .limited img:hover{
+       transform: scale(0.95);
+    }
+    .New_Arrivals img{
+        width: 90%;
+    }
+}
+
+
+@media(max-width: 576px){
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+    #p{
+        margin-top: 270px;
+        font-size: 2rem;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    .limited img{
+        width: 45%; 
+        height: 250px;
+    }
+    .limited img:hover{
+       transform: scale(0.95);
+    }
+    .New_Arrivals img{
+        width: 60%;
+    }
+    .New_Arrivals .pop{
+        display: grid;
+        grid-template-columns: 200px 200px;
+        margin-left: 13%;
+    }
+    .footer{
+        height: 100vh;
+        padding:0px 2%;
+    }
+    .low{
+        display: grid;
+        grid-template-columns: 200px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .noo{
+        margin-top: 85px;
+    }
+}
+
+
